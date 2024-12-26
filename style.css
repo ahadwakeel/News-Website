@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: black;
+    color: white;
+}
+.Website-header {
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Website-header img {
+    margin: 0 30px;
+}
+.Website-header h1 {
+    margin: auto 0;
+}
+.social-icon {
+    text-align: right;
+    flex-grow: 1;
+}
+.social-icon i {
+    margin: 0 7px;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    background-color: black;
+    height: 50px;
+    margin-bottom: 20px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 15px 0 0 24px;
+}
+.navbar-nav li {
+    padding: 10px 20px;
+}
+.navbar-nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+}
+.navbar-nav li a:hover {
+    color: brown;
+}
+.breaking-news-section {
+    padding: 0 30px 0 60px;
+    display: flex;
+}
+#btext {
+    width: 200px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: brown;
+    font-weight: 600;
+    margin: auto 0;
+}
+.breaking-news {
+    padding: 30px;
+    color: white;
+    font-weight: 800;
+    display: inline-block;
+}
+.breaking-news:hover .social-icon :hover {
+    color: brown;
+    cursor: pointer;
+    
+}
+.bntime {
+    display: inline-block;
+    color: rgb(255, 255, 255,0.5);
+    padding: 0 10px;
+    font-size: 12px;
+}
